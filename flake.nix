@@ -12,7 +12,7 @@
     packages.uniclip = pkgs.buildGoModule {
       name = "uniclip";
       src = ./.;
-      vendorSha256 = "sha256-ugrWrB0YVs/oWAR3TC3bEpt1VXQC1c3oLrvFJxlR8pw=";
+      vendorHash = "sha256-ugrWrB0YVs/oWAR3TC3bEpt1VXQC1c3oLrvFJxlR8pw=";
       meta = with pkgs.lib; {
         description = "Cross-platform shared clipboard";
         homepage = "https://github.com/quackduck/uniclip";
